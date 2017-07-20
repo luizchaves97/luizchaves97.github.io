@@ -85,6 +85,10 @@ a.voltar{
     	width: 90%;    
     	margin: 0 auto;
 	}
+	.certificates h1{
+		padding: 0 10px;
+		font-size: 25px;
+	}
 }
 
 @media screen and (max-width: 375px) {
