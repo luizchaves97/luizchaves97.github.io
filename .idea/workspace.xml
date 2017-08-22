@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d0a7e95-55f7-4344-bcb6-af607d323a6f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/certificates/certificate-gulp.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/certificate.html" afterPath="$PROJECT_DIR$/certificate.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,8 +17,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="212" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="212" />
+            <state relative-caret-position="391">
+              <caret line="23" column="253" lean-forward="false" selection-start-line="23" selection-start-column="253" selection-end-line="23" selection-end-column="253" />
               <folding />
             </state>
           </provider>
@@ -44,8 +42,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/certificate.html" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -268,12 +266,12 @@
       <option name="presentableId" value="Default" />
       <updated>1503346996176</updated>
       <workItem from="1503346997510" duration="369000" />
-      <workItem from="1503379202970" duration="142000" />
+      <workItem from="1503379202970" duration="336000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="511000" />
+    <option name="totallyTimeSpent" value="705000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -335,8 +333,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="212" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="212" />
+        <state relative-caret-position="391">
+          <caret line="23" column="253" lean-forward="false" selection-start-line="23" selection-start-column="253" selection-end-line="23" selection-end-column="253" />
           <folding />
         </state>
       </provider>
