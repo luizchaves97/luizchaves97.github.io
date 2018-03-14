@@ -25,7 +25,7 @@ gulp.task('vendor', function() {
       '!./node_modules/bootstrap/dist/css/bootstrap-grid*',
       '!./node_modules/bootstrap/dist/css/bootstrap-reboot*'
     ])
-    .pipe(gulp.dest('./src/vendor/bootstrap'))
+    .pipe(gulp.dest('./dist/vendor/bootstrap'))
 
   // Font Awesome
   gulp.src([
@@ -35,26 +35,26 @@ gulp.task('vendor', function() {
       '!./node_modules/font-awesome/.*',
       '!./node_modules/font-awesome/*.{txt,json,md}'
     ])
-    .pipe(gulp.dest('./src/vendor/font-awesome'))
+    .pipe(gulp.dest('./dist/vendor/font-awesome'))
 
   // jQuery
   gulp.src([
       './node_modules/jquery/dist/*',
       '!./node_modules/jquery/dist/core.js'
     ])
-    .pipe(gulp.dest('./src/vendor/jquery'))
+    .pipe(gulp.dest('./dist/vendor/jquery'))
 
   // jQuery Easing
   gulp.src([
       './node_modules/jquery.easing/*.js'
     ])
-    .pipe(gulp.dest('./src/vendor/jquery-easing'))
+    .pipe(gulp.dest('./dist/vendor/jquery-easing'))
 
   // Magnific Popup
   gulp.src([
       './node_modules/magnific-popup/dist/*'
     ])
-    .pipe(gulp.dest('./src/vendor/magnific-popup'))
+    .pipe(gulp.dest('./dist/vendor/magnific-popup'))
 });
 
 // Compile SCSS
@@ -86,10 +86,10 @@ gulp.task('css', ['css:compile', 'css:minify']);
 // Concat JavaScript
 gulp.task('js:concat', function() {
   return gulp.src([
-      './src/vendor/jquery/jquery.min.js',
-      './src/vendor/bootstrap/js/bootstrap.bundle.min.js',
-      './src/vendor/jquery-easing/jquery.easing.min.js',
-      './src/vendor/magnific-popup/jquery.magnific-popup.min.js',
+      './dist/vendor/jquery/jquery.min.js',
+      './dist/vendor/bootstrap/js/bootstrap.bundle.min.js',
+      './dist/vendor/jquery-easing/jquery.easing.min.js',
+      './dist/vendor/magnific-popup/jquery.magnific-popup.min.js',
       './src/js/jqBootstrapValidation.js',
       './src/js/contact_me.js',
       './src/js/freelancer.min.js'
