@@ -207,6 +207,12 @@ header.masthead .container {
   }
 }
 
+@media (max-width: 375px) {
+  header.masthead img {
+    max-width: 150px;
+  }
+}
+
 .portfolio {
   margin-bottom: -15px;
 }

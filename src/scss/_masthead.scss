@@ -43,3 +43,10 @@ header.masthead {
 
   }
 }
+@media (max-width: 375px) {
+  header.masthead {
+    img{
+      max-width:150px;
+    }
+  }
+}
