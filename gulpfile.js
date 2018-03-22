@@ -92,7 +92,7 @@ gulp.task('js:concat', function() {
       './dist/vendor/magnific-popup/jquery.magnific-popup.min.js',
       './src/js/jqBootstrapValidation.js',
       './src/js/contact_me.js',
-      './src/js/freelancer.min.js'
+      './src/js/freelancer.js'
     ])
     .pipe(concat('bundle.js'))
     .pipe(gulp.dest('./dist/js/'));

@@ -12,10 +12,8 @@
     li.nav-item {
       a.nav-link {
         color: $white;
-        &:hover {
-          color: $primary;
-        }
         &:active,
+        &:hover
         &:focus {
           color: $white;
         }
@@ -38,7 +36,6 @@
     -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
     transition: padding-top 0.3s, padding-bottom 0.3s;
     .navbar-brand {
-      font-size: 2em;
       -webkit-transition: font-size 0.3s;
       -moz-transition: font-size 0.3s;
       transition: font-size 0.3s;

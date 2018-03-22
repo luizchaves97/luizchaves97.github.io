@@ -24,7 +24,7 @@ hr.star-dark {
   margin-bottom: 2.5rem;
 }
 
-hr.star-light:after,
+/*hr.star-light:after,
 hr.star-dark:after {
   position: relative;
   top: -.8em;
@@ -33,23 +33,23 @@ hr.star-dark:after {
   content: '\f005';
   font-family: FontAwesome;
   font-size: 2em;
-}
+}*/
 
 hr.star-light {
   border-color: $white;
 }
-hr.star-light:after {
+/*hr.star-light:after {
   color: $white;
   background-color: $primary;
-}
+}*/
 
 hr.star-dark {
   border-color: $secondary;
 }
-hr.star-dark:after {
+/*hr.star-dark:after {
   color: $secondary;
   background-color: white;
-}
+}*/
 
 // Section Padding Settings
 section {
