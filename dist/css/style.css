@@ -163,7 +163,7 @@ header.masthead {
   display: table;
   height: 100vh;
   width: 100%;
-  background: url(https://luizchaves97.github.io/dist/bgimage.png);
+  background: url(https://luizchaves97.github.io/dist/img/bgimage.png);
   background-size: cover;
   background-repeat: no-repeat;
   z-index: -2;
@@ -204,6 +204,12 @@ header.masthead .container {
   }
   header.masthead h2 {
     font-size: 1.75em;
+  }
+}
+
+@media (max-width: 375px) {
+  header.masthead img {
+    max-width: 150px;
   }
 }
 
