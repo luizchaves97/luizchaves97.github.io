@@ -18,6 +18,10 @@
         "type": "git",
         "url": "https://github.com/luizchaves97/luizchaves97.github.io.git"
     },
+    "scripts": {
+        "dev": "webpack-dev-server --mode=development",
+        "build": "webpack --mode=production"
+    },
     "dependencies": {
         "bootstrap": "4.0.0",
         "font-awesome": "4.7.0",
@@ -27,6 +31,11 @@
         "magnific-popup": "^1.1.0"
     },
     "devDependencies": {
+        "@babel/cli": "^7.4.3",
+        "@babel/core": "^7.4.3",
+        "@babel/plugin-proposal-object-rest-spread": "^7.4.3",
+        "@babel/preset-env": "^7.4.3",
+        "babel-loader": "^8.0.5",
         "browser-sync": "2.23.6",
         "gulp": "^3.9.1",
         "gulp-clean-css": "3.9.2",
@@ -35,6 +44,9 @@
         "gulp-header": "2.0.1",
         "gulp-rename": "^1.2.2",
         "gulp-sass": "^3.1.0",
-        "gulp-uglify": "3.0.0"
+        "gulp-uglify": "3.0.0",
+        "webpack": "^4.29.6",
+        "webpack-cli": "^3.3.0",
+        "webpack-dev-server": "^3.2.1"
     }
 }
